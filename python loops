@@ -1,0 +1,15 @@
+# python program to print all positive numbers 
+start = int(input("enter the start of range :"))
+end =int(input("enter the end of the range :"))
+
+#iterating each number in a list
+for num in range(start , end+1) :
+#checking condition
+if num >=0:
+print(num ,end = " ")
+
+#2nd method
+list1 = [ 6 ,-10 ,47 ,-79 ,129 ,-150 ,234 ,500 ]
+#checking condition
+if num >= 0 :
+print(num ,end =" " )
